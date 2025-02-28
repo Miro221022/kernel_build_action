@@ -7,7 +7,7 @@ branding:
 
 inputs:
   kernel-url:
-    description: 'Kernel Source Url'
+    description: https://github.com/realme-kernel-opensource/realme_GTmaster_Q3s_Q3t_9-5G-Speed-AndroidT-kernel-source.git
     required: true
   depth:
     required: false
@@ -25,21 +25,21 @@ inputs:
     required: false
     default: vendor
   kernel-branch:
-    description: 'Branch name for kernel source'
+    description: master
     required: false
     default: main
   vendor-branch:
     required: false
     default: main
   config:
-    description: 'configuration for building android kernel'
+    description: lahaina_defconfig
     required: true
     default: defconfig
   arch:
     required: true
     default: arm64
   android-version:
-    description: 'Android version.'
+    description: 11
     required: false
     default: ""
   ksu:
